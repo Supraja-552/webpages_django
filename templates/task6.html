@@ -1,0 +1,46 @@
+{% load static %}
+<html>
+    <head>
+        <style>
+            body{
+                margin:0px;
+            }
+        div{
+            background-color:black;
+            
+            text-align:center;
+
+        }
+        div>a{
+            background-color:chocolate;
+            color:blue;
+            display:inline-block;
+            width:80px;
+            text-decoration:none;
+            padding:10px;
+            border-radius:7px;
+            margin:10px;
+           
+
+
+        }
+        div>a:hover{
+            box-shadow:0px 0px 10px white;
+            background-color:red;
+            color:green;
+        }
+
+        </style>
+        <link rel="stylesheet" href="{% fontawesome-free-6.4.2-web 'css\all.css' %}">
+    </head>
+    <body>
+        <div>
+            <a href="#" ><span class="fa-solid fa-house"></span> Home</a> 
+            <a href="#" ><span class="fa-solid fa-newspaper"></span> Update</a> 
+            <a href="#"> <span class="fa-solid fa-image"></span>Gallary</a> 
+            <a href="#"><span class="fa-solid fa-phone"></span> Contacts</a> 
+            <a href="#"> <span  class="fa-solid fa-address-card"></span> About</a> 
+          
+               </div>
+    </body>
+</html>

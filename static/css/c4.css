@@ -1,0 +1,45 @@
+
+
+
+div> h1{
+       background-color:aqua;
+       color:crimson;
+       margin:30px 0px ;
+       text-align:center;
+
+
+   }
+
+
+   .d{
+       background-color:black;
+       text-align:center;
+   }
+   .d>a{
+       background-color: green;
+       color:blue;
+       margin:10px;
+       display:inline-block;
+       width:100px;
+       padding:7px;
+
+
+
+   }
+
+
+
+   .img{
+       float:left;
+       width:100%
+   }
+   div{
+       display:block;
+   }
+   .m{
+       margin:0px 90px 0px 160px;
+       width:100%;
+
+   }
+
+

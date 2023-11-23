@@ -1,0 +1,83 @@
+{% load static %}
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'css/c2.css' %}">
+    </head>
+    <body>
+      
+        <div>
+            <h1> Novell Services Login</h1>
+        <table>
+            <tr>
+                <td><lable>Username</lable></td>
+                <td><input type="text"/></td>
+            </tr>
+            <tr>
+                <td><lable>Password</lable></td>
+                <td><input type="password"/></td>
+                </tr>
+            <tr>
+                <td><lable>City of</lable></td>
+                <td><input type="text"/></td>
+            </tr>
+            <tr>
+                <td><lable>Employment</lable></td>
+                <td><input type="text"/></td>
+            </tr>
+            
+
+
+            <tr>
+                <td><lable>Web server</lable></td>
+                <td><select >
+                    <option>--choose a server--</option>
+                    <option>Xamp</option>
+                    <option>Oracle</option>
+                    <option>Microsoft</option>
+                </select></td>
+            </tr>
+           
+            <tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+            
+                <tr><td rowspan="5" ><lable>Please specify your role</lable></td>
+                <tr><td><input type='radio' id='r1'>Admin</input></td></tr>
+                <tr><td><input type='radio' id='r1'>Engineer</input></td></tr>
+                <tr><td><input type='radio' id='r1'>Manager</input></td></tr>
+                <tr><td><input type='radio' id='r1'>Guest</input></td></tr>
+              </tr>
+              <tr></tr>
+              <tr></tr>
+              <tr></tr>
+              <tr>
+            </tr>
+            <tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                
+                <tr><td rowspan="3" id="mm1"><label > Single Sign-on to the following</label></td>
+                <td><input type='checkbox'>Mail</input></td></tr>
+                <tr><td> <input type='checkbox'>Payroll</input></td></tr>
+                <tr><td> <input type='checkbox'>Self-service</input></td></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+            </tr>
+
+
+            <tr>
+                <td colspan="2" id="mm" >
+                    <button id="but1">login </button>
+                    <button > Reset </button></td>
+            </tr>
+
+               
+            
+        </table>
+        </div>
+    </body>
+</html>

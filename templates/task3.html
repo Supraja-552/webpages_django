@@ -1,0 +1,80 @@
+{% load static %}
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'css/c3.css' %}">
+    </head>
+    <body>
+      
+        <div>
+            <h1> Student Registration Form</h1>
+            <p> Fill in the form to register</p>
+        <table>
+            <tr>
+                <td><lable>First Name</lable></td>
+                <td><input type="text" placeholder="Enter First Name"/></td>
+            </tr>
+            <tr>
+                <td><lable>Last Name</lable></td>
+                <td><input type="text" placeholder="Enter Last Name"/></td>
+            </tr>
+            <tr>
+                <td><lable>Email</lable></td>
+                <td><input type="email" placeholder="Enter your e-mail"/></td>
+                </tr>
+            <tr>
+                <td><lable>Date of Birth</lable></td>
+                <td><input type="date"/></td>
+            </tr>
+            <tr>
+                <td><lable> Set Username</lable></td>
+                <td><input type="text" placeholder=" Set Username"/></td>
+            </tr>
+            <tr>
+                <td><lable> Set Password</lable></td>
+                <td><input type="password" placeholder=" Set Password"/></td>
+            </tr>
+            
+
+
+            <tr>
+                <td><lable>Gender</lable></td></tr>
+               <tr> <td > 
+                    <input type="radio" name="r1" /> Male</input></td></tr>
+                
+            
+                    <tr><td><input type="radio" name="r1"  /> FeMale</input></td></tr>
+              
+                    <tr><td><input type="radio" name="r1"  /> Others</input></td></tr>
+               
+               
+            </tr>
+           
+           
+                
+              
+                <tr>
+                    <td id="er"> <lable> Courses</lable></td>
+    <td id="er">
+        <select>
+       <option>Course</option>
+       <option>C</option>
+       <option>Java</option>
+       <option>Python</option>
+       <option>Sql</option>
+       <option>HTML</option>
+    </select>
+            </tr>
+
+
+            <tr>
+                <td >
+                    <button>Register </button>
+                    
+            </tr>
+
+               
+            
+        </table>
+        </div>
+    </body>
+</html>
